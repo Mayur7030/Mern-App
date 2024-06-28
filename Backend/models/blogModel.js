@@ -39,10 +39,7 @@ var blogSchema = new mongoose.Schema(
       },
     ],
 
-    images: {
-      type: String,
-      default: "",
-    },
+    images: [],
     author: {
       type: String,
       default: "admin",
